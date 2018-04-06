@@ -1,0 +1,13 @@
+package Java_String_Exercises_31_exercises_with_solution;
+	//Write a Java program to replace all the 'd' characters with 'f' characters
+public class bai24 {
+
+	public static void main(String[] args) {
+		String a = "Write a Java program to replace all the 'd' characters with 'f' characters";
+		String b = a.replace("d","f");
+		System.out.println("chuoi cu: "+a);
+		System.out.println("chuoi moi: "+b);
+
+	}
+
+}
